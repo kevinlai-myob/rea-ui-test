@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import TestComponent from './components/TestComponent'
-
+import Cards from './components/Cards';
 
 function App() {
   return (
     <div>
-      <TestComponent/>
+      <Cards/>
     </div>
   );
 }
