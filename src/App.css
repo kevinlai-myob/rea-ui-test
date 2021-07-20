@@ -46,10 +46,19 @@
   height: 20px;
   margin: auto;
 }
-
-.ui.icon.button.card_hover {
-  display: none;
+.add_button{
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-.ui.icon.button.card_hover:hover {
-  display: inherit;
+.hover {
+  opacity: 0;
+}
+.hover:hover {
+  opacity: 100;
 }
